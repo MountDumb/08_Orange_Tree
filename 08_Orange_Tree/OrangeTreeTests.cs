@@ -28,7 +28,7 @@ namespace _08_Orange_Tree
         [TestMethod]
         public void ShouldIncrementTheTreesHeightByTwoWithEachPassingYear()
         {
-            
+
             //Act
             orangeTree.OneYearPasses();
 
@@ -58,7 +58,7 @@ namespace _08_Orange_Tree
 
             orangeTree.OneYearPasses();
             Assert.AreEqual(5, orangeTree.NumOranges);
-            
+
         }
         [TestMethod]
         public void ShouldIncreaseFruitProductionBy5PiecesEachYearAfterMaturity()
@@ -69,7 +69,7 @@ namespace _08_Orange_Tree
 
             orangeTree.OneYearPasses();
             Assert.AreEqual(10, orangeTree.NumOranges);
-            
+
         }
         [TestMethod]
         public void ShouldCountNumberOfOrangesEatenThisYear()
@@ -90,6 +90,6 @@ namespace _08_Orange_Tree
             orangeTree.EatOrange(1);
         }
 
-       
+
     }
 }
